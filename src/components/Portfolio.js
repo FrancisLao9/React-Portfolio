@@ -12,12 +12,12 @@ function Portfolio() {
                     <div className='image'>
                         <a href="insert project link here">
                             {''}
-                            <
+                            {/* <
                              src={}
                              className=''
                              style={{width: '100%'}}
                              alt=''   
-                            />
+                            /> */}
                         </a>
                     </div>
                     <div className='job-text'>
@@ -34,12 +34,12 @@ function Portfolio() {
                     <div className='image'>
                         <a href="insert project link here">
                             {''}
-                            <
+                            {/* <
                              src={}
                              className=''
                              style={{width: '100%'}}
                              alt=''   
-                            />
+                            /> */}
                         </a>
                     </div>
                     <div className='job-text'>
@@ -56,13 +56,13 @@ function Portfolio() {
                     <div className='image'>
                         <a href="insert project link here">
                             {''}
-                            <
+                            {/* <
                              src={}
                              className=''
                              style={{width: '100%'}}
                              alt=''   
-                            />
-                        </a>
+                            />*/}
+                        </a> 
                     </div>
                     <div className='job-text'>
                         <h4>Title Here</h4>
