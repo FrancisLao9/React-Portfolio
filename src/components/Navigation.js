@@ -9,7 +9,7 @@ function Nav(props) {
 
     return (
         <nav>
-            <ul className="nav nav-row">
+            <ul className="nav nav-tabs">
                 <li className="nav-item">
                     <a
                         href='#about'

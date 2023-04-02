@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {validateEmail} from '../utils/helpers';
+import {validateEmail} from '../utils/helper';
 
 function Contact() {
   const [email, setEmail] = useState('');
@@ -10,7 +10,7 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!email || !userName || !message) {
+    if (!validateEmail(email) || !userName || !message) {
       setErrorMessage('Valid Username and/or Email Address is Required');
       return;
     }
