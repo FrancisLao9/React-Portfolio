@@ -1,4 +1,6 @@
 import React from "react";
+import resume from '../assets';
+
 //import resume as pdf
 function Resume() {
     return (
